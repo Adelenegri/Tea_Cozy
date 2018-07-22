@@ -16,23 +16,38 @@ a {
 
 header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 69px;
   position: fixed;
   border-bottom: 1px solid seashell;
+  padding: 0 10px;
 }
 
-.title {
-  flex-grow: 1;
-  font-family: Helvetica, serif;
-  font-style: italic;
-  text-align:left;
-  font-size: 50px;
-  padding: 10px;
+.logo {
+  /*width: 120px;
+  height: 50px; */
 }
 
 nav li{
   display: inline-block;
-  padding: 10px;
+  padding-right: 20px;
+}
+
+/* Mission section */
+
+.mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  <!-- background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg); -->
+}
+
+.mission.info {
+  display flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
 }
