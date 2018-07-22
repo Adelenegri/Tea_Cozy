@@ -62,3 +62,34 @@ nav li{
   background-color: black;
   background-image: none;
 }
+
+/* Tea section */
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea.info h2 {
+  margin-top: 82px;
+}
+
+.choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.selection {
+  margin: 10px 15px;
+}
+
+.selection img{
+  width: 300px;
+  height: 200px;
+}
