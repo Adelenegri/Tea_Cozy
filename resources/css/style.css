@@ -12,6 +12,17 @@ a {
   color: seashell;
 }
 
+h2 {
+  font-size: 33px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+h4 {
+  font-weight: bold;
+  margin: 10px;
+}
+
 /* Header */
 
 header {
@@ -23,11 +34,7 @@ header {
   position: fixed;
   border-bottom: 1px solid seashell;
   padding: 0 10px;
-}
-
-.logo {
-  /*width: 120px;
-  height: 50px; */
+  background-color: black;
 }
 
 nav li{
@@ -42,12 +49,16 @@ nav li{
   width: 1200px;
   height: 700px;
   align-items: center;
-  <!-- background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg); -->
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
 }
 
 .mission.info {
   display flex;
+  flex-direction: column;
   height: 100px;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  background-image: none;
 }
