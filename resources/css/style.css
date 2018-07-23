@@ -37,7 +37,6 @@ h5 {
 
 footer {
   text-align: left;
-  /*position: fixed;*/
 }
 /* Header */
 
@@ -46,6 +45,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  max-width: 1200px;
   height: 69px;
   position: fixed;
   border-bottom: 1px solid seashell;
@@ -62,8 +62,8 @@ nav li{
 
 .mission {
   display: flex;
-  /*width: 1200px;*/
   width: 100%;
+  max-width: 1200px;
   height: 700px;
   align-items: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
@@ -85,8 +85,8 @@ nav li{
 .tea {
   display: flex;
   flex-direction: column;
-  /*width: 1200px;*/
   width: 100%;
+  max-width: 1200px;
   justify-content: center;
   align-items: center;
 }
@@ -119,8 +119,8 @@ nav li{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*width: 1200px;*/
   width: 100%;
+  max-width: 1200px;
   height: 500px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 }
@@ -132,8 +132,8 @@ nav li{
 .shops {
   display: flex;
   flex-direction: row;
-  /*width: 1020px;*/
   width: 100%;
+  max-width: 1200px;
   height: 300px;
   justify-content: center;
   align-items: center;
@@ -156,7 +156,7 @@ nav li{
 /* Contact section */
 
 .contact {
-  /*width: 1200px;*/
   width: 100%;
+  max-width: 1200px;
   height: 200px;
 }
