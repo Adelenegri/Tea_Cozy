@@ -23,6 +23,13 @@ h4 {
   margin: 10px;
 }
 
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  /*margin: 15px;*/
+  padding: 20px;
+}
+
 /* Header */
 
 header {
@@ -106,20 +113,31 @@ nav li{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 }
 
-.locations.title h2 {
-  margin-bottom: 15px;
+.locations h2 {
+  padding-bottom: 15px;
 }
 
 .shops {
   display: flex;
   flex-direction: row;
+  width: 1020px;
+  height: 300px;
 }
 
 .adress {
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;*/
   width: 300px;
   height: 280px;
   opacity: 1;
-  margin-left: 40px;
+  margin: 0 20px;
+  padding: 0;
   background-color: black;
   background-image: none;
+}
+
+.adress p{
+  padding: 20px 0;
 }
